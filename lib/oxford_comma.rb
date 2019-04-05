@@ -3,4 +3,5 @@ def oxford_comma(array)
     array[0].to_s 
   else 
     array.each do |x|
+      
 end
