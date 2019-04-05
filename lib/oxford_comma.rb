@@ -10,6 +10,6 @@ def oxford_comma(array)
     array.pop
     array.join(", ")
     complete= "#{array} #{last}"
-    return array.push(last).to_s
+    return array.push(last)
 end
 end
