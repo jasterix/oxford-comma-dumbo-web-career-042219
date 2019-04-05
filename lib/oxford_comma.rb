@@ -3,5 +3,5 @@ def oxford_comma(array)
     string=array[0].to_s 
     string
   else 
-    array.split(",")
+    array.join("and")
 end
