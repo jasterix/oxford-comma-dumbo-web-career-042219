@@ -7,9 +7,8 @@ def oxford_comma(array)
   else
     last = ", and #{array[-1]}"
     last
-    array.pop
+    array = array.pop
     array.join(", ")
-    array.to_s
     "#{array} #{last}"
 end
 end
