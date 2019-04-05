@@ -9,6 +9,6 @@ def oxford_comma(array)
     last
     array.pop
     array.join(", ")
-    "#{array} #{last}"
+    return "#{array} #{last}"
 end
 end
